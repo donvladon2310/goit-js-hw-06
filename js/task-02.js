@@ -16,4 +16,7 @@ function creteLi(element) {
   return li;
 }
 const lis = ingredients.map((ingredient) => creteLi(ingredient));
-console.log(lis)
+console.log(lis);
+ingredientsList.append(...lis);
+
+
